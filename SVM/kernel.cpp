@@ -114,6 +114,15 @@ namespace vm
     }
 
     Kernel::~Kernel() {}
+	
+	bool cmpByProcess(Process first, Process second)
+	{
+		return first.sequential_instruction_count < second.sequential_instruction_count;
+	}
+	bool cmpByPriority(Process first, Process second)
+	{
+		return first.priority < second.priority;
+	}
 
     void Kernel::CreateProcess(Memory::ram_type &executable)
 	{
@@ -129,6 +138,15 @@ namespace vm
 
         // ToDo: add the new process to an appropriate data structure
         processes.push_back(process);
+
+		if( scheduler == ShortestJob)
+		{
+			std::sort(processes.begin(), processes.end(), cmpByProcess);
+		}
+		else if(scheduler == Priority)
+		{
+			std::sort(processes.begin(), processes.end(), cmpByPriority);
+		}
 
 		// ToDo: process the data structure
 

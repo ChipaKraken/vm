@@ -1,5 +1,27 @@
-﻿Build started 20.02.2014 8:08:43.
+﻿Построение начато 28.03.2014 22:42:37.
+     1>Проект "C:\Users\Chipa\Desktop\os\vm\SVM\SVM.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Обращение к "Debug\VM.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt kernel.cpp
+         kernel.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chipa\Desktop\os\vm\Debug\VM.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Chipa\Desktop\os\vm\Debug\VM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chipa\Desktop\os\vm\Debug\VM.lib" /MACHINE:X86 Debug\cpu.obj
+         Debug\kernel.obj
+         Debug\machine.obj
+         Debug\memory.obj
+         Debug\pic.obj
+         Debug\pit.obj
+         Debug\process.obj
+         Debug\vm.obj
+         SVM.vcxproj -> C:\Users\Chipa\Desktop\os\vm\Debug\VM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Chipa\Desktop\os\vm\Debug\VM.exe;#1" /manifest Debug\VM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\VM.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\VM.lastbuildstate".
+     1>Построение проекта "C:\Users\Chipa\Desktop\os\vm\SVM\SVM.vcxproj" завершено (целевые объекты build).
 
-Build succeeded.
+Построение успешно завершено.
 
-Time Elapsed 00:00:00.03
+Затраченное время: 00:00:05.60

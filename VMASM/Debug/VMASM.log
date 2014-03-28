@@ -1,5 +1,20 @@
-﻿Build started 20.02.2014 8:08:43.
+﻿Построение начато 28.03.2014 22:40:13.
+     1>Проект "C:\Users\Chipa\Desktop\os\vm\VMASM\VMASM.vcxproj" в узле 3 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\VMASM.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vmasm.cpp
+         vmasm.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Chipa\Desktop\os\vm\Debug\VMASM.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VMASM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Chipa\Desktop\os\vm\Debug\VMASM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Chipa\Desktop\os\vm\Debug\VMASM.lib" /MACHINE:X86 Debug\vmasm.obj
+         VMASM.vcxproj -> C:\Users\Chipa\Desktop\os\vm\Debug\VMASM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Chipa\Desktop\os\vm\Debug\VMASM.exe;#1" /manifest Debug\VMASM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug\VMASM.unsuccessfulbuild" удаляется.
+         Обращение к "Debug\VMASM.lastbuildstate".
+     1>Построение проекта "C:\Users\Chipa\Desktop\os\vm\VMASM\VMASM.vcxproj" завершено (целевые объекты build).
 
-Build succeeded.
+Построение успешно завершено.
 
-Time Elapsed 00:00:00.03
+Затраченное время: 00:00:07.38
