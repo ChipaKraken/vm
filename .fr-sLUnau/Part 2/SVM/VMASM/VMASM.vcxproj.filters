@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="VMASM Sources">
+      <UniqueIdentifier>{527e5725-a6d5-4c14-a994-c530a9c102b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VM Executables">
+      <UniqueIdentifier>{d3852ed9-932a-435c-b97e-158d2c556a83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="vmasm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resources\Sources\change_register.vmasm">
+      <Filter>VMASM Sources</Filter>
+    </None>
+    <None Include="..\Resources\Sources\change_register_in_loop.vmasm">
+      <Filter>VMASM Sources</Filter>
+    </None>
+    <None Include="..\Resources\Programs\change_register_in_loop.vmexe">
+      <Filter>VM Executables</Filter>
+    </None>
+    <None Include="..\Resources\Programs\change_register.vmexe">
+      <Filter>VM Executables</Filter>
+    </None>
+    <None Include="..\Resources\Sources\read_write_to_virtual_memory.vmasm">
+      <Filter>VMASM Sources</Filter>
+    </None>
+  </ItemGroup>
+</Project>

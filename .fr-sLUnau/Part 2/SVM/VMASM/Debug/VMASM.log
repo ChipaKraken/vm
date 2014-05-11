@@ -1,0 +1,22 @@
+﻿Build started 08.05.2014 08:56:19.
+     1>Project "F:\Part 2\SVM\VMASM\VMASM.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\VMASM.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\VMASM.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt vmasm.cpp
+         vmasm.cpp
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Part 2\SVM\Debug\VMASM.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\VMASM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\Part 2\SVM\Debug\VMASM.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Part 2\SVM\Debug\VMASM.lib" /MACHINE:X86 Debug\vmasm.obj
+         VMASM.vcxproj -> F:\Part 2\SVM\Debug\VMASM.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\Part 2\SVM\Debug\VMASM.exe;#1" /manifest Debug\VMASM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\VMASM.unsuccessfulbuild".
+         Touching "Debug\VMASM.lastbuildstate".
+     1>Done Building Project "F:\Part 2\SVM\VMASM\VMASM.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:20.65
